@@ -9,13 +9,13 @@ class DemandeTest {
 	@Test
 	void demandeTest() {
 		
-		//Création classe demande
+		//Creation classe demande
 		String[] reponses = {"Bleu", "Rouge", "Jaune", "Vert"};
 		
-		Demande demande = new Demande("Quelle est votre couleur préférée ?", reponses);
+		Demande demande = new Demande("Quelle est votre couleur preferee ?", reponses);
 		
-		//Test de la méthode getQuestion
-		assertEquals(demande.getQuestion(), "Quelle est votre couleur préférée ?");
+		//Test de la methode getQuestion
+		assertEquals(demande.getQuestion(), "Quelle est votre couleur preferee ?");
 		
 		//Test de la fonction getReponses
 		assertEquals(demande.getReponses().length,4);

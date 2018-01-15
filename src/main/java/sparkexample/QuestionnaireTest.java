@@ -9,12 +9,12 @@ class QuestionnaireTest {
 	@Test
 	void test() {
 		
-		//Création classe demande
+		//Creation classe demande
 		String[] reponses = {"Bleu", "Rouge", "Jaune", "Vert"};
 				
-		Demande demande = new Demande("Quelle est votre couleur préférée ?", reponses);
+		Demande demande = new Demande("Quelle est votre couleur preferee ?", reponses);
 		
-		//Création classe questionnaire
+		//Creation classe questionnaire
 		Questionnaire quest = new Questionnaire();
 		
 		quest.demandes.add(demande);
